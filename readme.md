@@ -1,4 +1,4 @@
-# Deploying Flask App on EC2 machine using Gunicorn and Nginx
+# Dockerizing Flask App and connecting MySQL server
 
 ### App description
 
