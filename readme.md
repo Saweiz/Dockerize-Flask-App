@@ -20,7 +20,7 @@ This is `Flask` based Blog app with `MySQL` (ORM) at backend. It has four sectio
 ### Quick Start (Running in docker)
 ```bash
 # clone the repo and enter the project directory
-git clone https://github.com/Saweiz/Flask-Blog-App
+git clone https://github.com/Saweiz/Dockerize-Flask-App
 cd Flask-Blog-App
 ```
 
@@ -48,7 +48,7 @@ The app would be running at listed ip on port 5000.
 ### Quick Start (Running the app locally)
 ```bash
 # clone the repo and enter the project directory
-git clone https://github.com/Saweiz/Flask-Blog-App
+git clone https://github.com/Saweiz/Dockerize-Flask-App
 cd Flask-Blog-App
 ```
 ```bash
