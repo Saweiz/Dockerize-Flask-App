@@ -63,14 +63,16 @@ pip install flask flask-sqlalchemy pymysql
 pyhton3 wsgi.py
 ```
 
-### Accessing MySQL server and creating DATABASE and TABLES
-Say, MySQL server credentials and params are,<br>
-username = admin <br>
-password = my_sql_passwd <br>
-host = 172.17.0.2 <br>
-port = 3306 <br>
-database_name = blog_app_db <br>
-<br>
+
+#### Accessing MySQL server and creating Database and Tables
+Say, MySQL server credentials and params are,
+```text
+username = admin
+password = my_sql_passwd
+host = 172.17.0.2
+port = 3306
+database_name = blog_app_db
+```
 
 Now to create database and tables, get into the MySQL server via MySQL Client,
 ```bash
@@ -121,7 +123,7 @@ ALTER TABLE `contacts` MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREM
 ALTER TABLE `posts` MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9; COMMIT;
 ```
 
-### Connecting Database with Flask App
+#### Connecting Database with Flask App
 You need to edit config.json for this,
 ```json
 ...
